@@ -190,3 +190,5 @@ select empno, ename, dname, loc FROM emp, dept;
 -- So if you used the regular equa join that row for where depno is 40 will not be displayed.
 -- ** ok display the list of emps in each dept . Display the dept info even if NO EMPS belong to that DEPT
 select empno, ename, emp.deptno, dname, loc FROM emp, dept WHERE emp.deptno (+) = dept.deptno;
+-- if the (+) symbol is placed on the otherside of the equation then all the emp's details with NO corresponding dept name
+-- and location  will be displayed with NULL values in DNAME and LOC column
