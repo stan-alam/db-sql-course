@@ -149,4 +149,44 @@ select job, SUM(sal), AVG(sal), MAX(sal), MIN(sal) from emp where deptno = 20 GR
 -- With joins, the information from any number of tables can be related
 -- In a join, the tables are listed in the FROM clause, seperated by commas
 -- The condition of the query can refer to any any column of the table joined
--- the connection between tables is established
+-- the connection between tables is established through the WHERE clause
+-- Based on the condition specified in WHERE clause, the required row(s) are retrieved
+-- Types of Joins : Equal Joins, Cartesian Joins, Outer Joins, Self-Joins, Non equal joins?
+
+-- One of the most important features of sql is the ability to define relationships between multiple tables and draw info
+-- from them in terms of these relationships,  all within a single command.
+-- EQUA Joins  
+-- When two tables are joined together using equality of values in one or more columns, they make an EQUA Join
+
+-- List the emps numbers, names and dep numbers from the dept name
+select empno, ename, emp.deptno, dname FROM emp, dept WHERE emp.deptno = dept.deptno;
+--observe the deptno column exists in both tables. To avoid ambiguity, the column name should be the qualified with the table name.
+-- or with an alias
+--observe that both table names need to be specified i.e. emp and dept. The WHERE clause defines the join condition
+-- i.e. the joining of the deptno of emp table to the deptno of the dept table.
+-- observe some key is shared with the two tables
+
+-- Cartesian joins
+-- when NO WHERE clause is specified, each row of one table matches every row of the other table
+select empno, ename, dname, loc FROM emp, dept;
+--notice that if the number of rows are 14 and 4 in emp and dept, respectively, then the total number of rows produced is 56
+--**** cartesian products are useful in finding out all the possible combinations of columns from different tables***
+--e.g.
+-- Consider the following ->
+-- FACULTY
+-- COURSE
+-- CAN_TEACH
+-- select * from faculty, course;
+
+--********************OUTER JOINS*****************************
+--If there are any values in one table that do NOT have corresponding value(s) in another, in an equa join that row will NOT be
+-- selected. Such rows can be forcefully selected by using the outer-join symbol (+)
+-- The corresponding columns for that row will have NULLS
+-- are you creating a join that can also handle NULLS? ****///***
+-- YES!
+----------------------------------------------------------------
+--- Example --
+-- In the EMP table there is NO record of the emps belonging to deptno 40,what about 42?
+-- So if you used the regular equa join that row for where depno is 40 will not be displayed.
+-- ** ok display the list of emps in each dept . Display the dept info even if NO EMPS belong to that DEPT
+select empno, ename, emp.deptno, dname, loc FROM emp, dept WHERE emp.deptno (+) = dept.deptno;
