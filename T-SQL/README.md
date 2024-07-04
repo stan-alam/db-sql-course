@@ -31,11 +31,11 @@
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/07.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/07.png" width="100%" height="100%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/08.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/08.png" width="100%" height="100%">
 </a>
 
 <a>
@@ -43,5 +43,5 @@
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/09.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/09.png" width="100%" height="100%">
 </a>
