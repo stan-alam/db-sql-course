@@ -160,3 +160,53 @@
   <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/22.png" width="100%" height="100%">
 </a>
 
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2017.png" width="80%" height="80%">
+</a>
+
+```sql
+--22A
+select ProductID 
+      ,ProductName
+	  ,UnitsInStock
+	  ,ReorderLevel 
+From Products
+Where 
+	UnitsInStock <= ReorderLevel
+Order by ProductID
+
+--23
+select
+	ProductID
+	,ProductName
+	,UnitsInStock
+	,UnitsOnOrder
+	,ReorderLevel
+From Products
+Where
+	UnitsInStock <= ReorderLevel
+Order by ProductID
+```
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/23.png" width="100%" height="100%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2018.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2019.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2020.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2021.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/24.png" width="100%" height="100%">
+</a>
