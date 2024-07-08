@@ -63,11 +63,11 @@
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%208.png" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/12.png" width="100%" height="100%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/12.png" width="100%" height="100%">
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%208.png" width="80%" height="80%">
 </a>
 
 <a>
