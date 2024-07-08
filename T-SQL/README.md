@@ -222,3 +222,27 @@ Order by ProductID
 <a>
   <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/25.png" width="100%" height="100%">
 </a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2024.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2025.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2026.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2027.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/26.png" width="100%" height="100%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/26A.png" width="100%" height="100%">
+</a>
