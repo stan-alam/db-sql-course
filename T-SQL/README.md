@@ -109,3 +109,16 @@
 <a>
   <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/18.png" width="100%" height="100%">
 </a>
+
+```sql
+  --19
+  select OrderID , OrderDate = CONVERT(date, OrderDate), Shipper = CompanyName 
+  from Orders JOIN Shippers ON Shippers.ShipperID = Orders.ShipVia
+  Where
+	  OrderID < 10270
+  Order BY
+	  OrderID
+```
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%2012.png" width="80%" height="80%">
+</a>
