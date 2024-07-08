@@ -75,7 +75,19 @@
 </a>
 
 <a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/14.png" width="100%" height="100%">
+</a>
+
+<a>
   <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/T%E2%80%93sql01%20-%20page%209.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/15.png" width="100%" height="100%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/db-sql-course/blob/develop/T-SQL/images/01/16.png" width="100%" height="100%">
 </a>
 
 
